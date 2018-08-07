@@ -31,6 +31,8 @@ public class Main {
         System.out.println("#1 binary, from node -10: " + maxSumNodePath.maxSum(binaryTree.getRoot().getRight()));
         System.out.println("#2 binary, from node -2: " + maxSumNodePath.maxSum(binaryTree02.getRoot().getLeft()));
 
+        ArrayToTree arrayToTree = new ArrayToTree();
+        System.out.println(arrayToTree.arrayToTree(new int[]{17, 0, -4, 3, 15}));
     }
 
 
